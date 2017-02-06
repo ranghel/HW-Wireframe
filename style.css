@@ -1,0 +1,114 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #ebebeb;
+	width: 960px;
+	height: auto;
+	background-color: #777;
+	line-height: 100%;
+}
+
+header {
+	background-color: white;
+	color: gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 20px;
+	height: 40px;
+
+}
+
+nav {
+	background-color: white;
+	color: gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 20px;
+	height: 40px;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+
+#section {
+	width: 495px;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	color: gray;
+	text-align: center;
+	padding: 15px;
+	padding-top: 30px;
+}
+
+.article {
+	width: 480px;
+	height: 100%;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.headings {
+	background-color: white;
+	color: gray;
+	margin: 20px 0 10px 0;
+	padding: 15px; 
+}
+
+.paragraph {
+	background-color: white;
+	color: gray;
+	margin: 10px 0 10px 0;
+	padding: 15px;
+}
+
+#aside {
+	background-color: white;
+	color: gray;
+	width: 40%;
+	height: 222px;
+	padding: 15px;
+	padding-top: 30px;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#section, #aside {
+	float: left;
+}
+
+
+footer {
+	clear: both;
+	overflow: auto;
+	background-color: white;
+	color: gray;
+	margin-top: 10px;
+	text-align: center;
+	padding: 20px;
+	height: 40px;
+}
